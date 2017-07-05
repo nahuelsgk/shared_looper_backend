@@ -1,0 +1,1206 @@
+TRACE 2017/07/04 15:41:22 run.go:120: Base path: /Users/creativehothouse/go/src/sound-looper-backend
+TRACE 2017/07/04 15:41:22 run.go:124: Running in watched mode.
+TRACE 2017/07/04 15:41:22 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:41:22 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:41:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:41:28 harness.go:132: Rebuild
+TRACE 2017/07/04 15:41:28 build.go:112: Exec: [/usr/local/go/bin/go build -i -ldflags -X sound-looper-backend/app.AppVersion= -X sound-looper-backend/app.BuildTime=2017-07-04T13:41:28Z -tags  -o /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend sound-looper-backend/app/tmp]
+TRACE 2017/07/04 15:41:30 app.go:63: Exec app: /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend [/Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend -port=61588 -importPath=sound-looper-backend -runMode=dev]
+TRACE 2017/07/04 15:41:30 controller.go:417: Registered controller: App
+TRACE 2017/07/04 15:41:30 controller.go:417: Registered controller: Static
+TRACE 2017/07/04 15:41:30 controller.go:417: Registered controller: TestRunner
+TRACE 2017/07/04 15:41:30 i18n.go:127: Importing messages from module: github.com/revel/modules/static
+TRACE 2017/07/04 15:41:30 i18n.go:127: Importing messages from module: github.com/revel/modules/testrunner
+TRACE 2017/07/04 15:41:30 i18n.go:164: Successfully loaded messages from file sample.en
+TRACE 2017/07/04 15:41:30 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views]
+TRACE 2017/07/04 15:41:30 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:41:30 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:41:30 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:41:30 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:41:30 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:41:30 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:41:30 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:41:30 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:41:30 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:41:30 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:41:33 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:41:33 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:41:33 app.go:21: map[myName:A name is required]
+TRACE 2017/07/04 15:41:33 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:41:33 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:42:43 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:42:43 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:42:43 app.go:21: map[myName:A name is required]
+TRACE 2017/07/04 15:42:43 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:42:43 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:44:05 app.go:95: Killing revel server pid 27258
+TRACE 2017/07/04 15:44:05 harness.go:132: Rebuild
+TRACE 2017/07/04 15:44:05 build.go:112: Exec: [/usr/local/go/bin/go build -i -ldflags -X sound-looper-backend/app.AppVersion= -X sound-looper-backend/app.BuildTime=2017-07-04T13:44:05Z -tags  -o /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend sound-looper-backend/app/tmp]
+TRACE 2017/07/04 15:44:07 app.go:63: Exec app: /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend [/Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend -port=61588 -importPath=sound-looper-backend -runMode=dev]
+TRACE 2017/07/04 15:44:07 controller.go:417: Registered controller: App
+TRACE 2017/07/04 15:44:07 controller.go:417: Registered controller: Static
+TRACE 2017/07/04 15:44:07 controller.go:417: Registered controller: TestRunner
+TRACE 2017/07/04 15:44:07 i18n.go:127: Importing messages from module: github.com/revel/modules/static
+TRACE 2017/07/04 15:44:07 i18n.go:127: Importing messages from module: github.com/revel/modules/testrunner
+TRACE 2017/07/04 15:44:07 i18n.go:164: Successfully loaded messages from file sample.en
+TRACE 2017/07/04 15:44:07 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views]
+TRACE 2017/07/04 15:44:07 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:44:07 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:44:07 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:44:07 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:44:07 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:44:07 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:44:07 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:44:07 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:44:07 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:44:07 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:44:07 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:44:07 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:44:10 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:44:10 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:44:12 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:44:12 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:46:35 app.go:95: Killing revel server pid 27289
+TRACE 2017/07/04 15:46:35 harness.go:132: Rebuild
+TRACE 2017/07/04 15:46:35 build.go:112: Exec: [/usr/local/go/bin/go build -i -ldflags -X sound-looper-backend/app.AppVersion= -X sound-looper-backend/app.BuildTime=2017-07-04T13:46:35Z -tags  -o /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend sound-looper-backend/app/tmp]
+TRACE 2017/07/04 15:46:37 app.go:63: Exec app: /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend [/Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend -port=61588 -importPath=sound-looper-backend -runMode=dev]
+TRACE 2017/07/04 15:46:37 controller.go:417: Registered controller: App
+TRACE 2017/07/04 15:46:37 controller.go:417: Registered controller: Static
+TRACE 2017/07/04 15:46:37 controller.go:417: Registered controller: TestRunner
+TRACE 2017/07/04 15:46:37 i18n.go:127: Importing messages from module: github.com/revel/modules/static
+TRACE 2017/07/04 15:46:37 i18n.go:127: Importing messages from module: github.com/revel/modules/testrunner
+TRACE 2017/07/04 15:46:37 i18n.go:164: Successfully loaded messages from file sample.en
+TRACE 2017/07/04 15:46:37 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views]
+TRACE 2017/07/04 15:46:37 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:46:37 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:46:37 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:46:37 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:46:37 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:46:37 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:46:37 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:46:37 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:46:37 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:46:37 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:46:37 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:46:37 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:46:39 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:46:39 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:46:43 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:46:43 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:48:44 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:48:44 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:48:44 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:48:44 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:48:44 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:48:44 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:48:44 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:48:45 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:48:45 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:48:46 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:48:46 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:49:06 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:49:06 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:49:06 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:49:06 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:49:06 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:49:06 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:49:06 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:49:12 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:49:12 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:49:12 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:49:12 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:49:14 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:49:14 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:49:17 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:49:17 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:49:17 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:49:17 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:49:22 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:49:22 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:49:22 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:49:22 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:49:22 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:49:22 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:49:22 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:49:22 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:49:22 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:49:23 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:49:23 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:49:23 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:49:23 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:49:25 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:49:25 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:49:43 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:49:43 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:49:43 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:49:43 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:49:43 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:49:43 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:49:43 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:49:50 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:49:50 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:50:07 app.go:95: Killing revel server pid 27314
+TRACE 2017/07/04 15:50:07 harness.go:132: Rebuild
+TRACE 2017/07/04 15:50:07 build.go:112: Exec: [/usr/local/go/bin/go build -i -ldflags -X sound-looper-backend/app.AppVersion= -X sound-looper-backend/app.BuildTime=2017-07-04T13:50:07Z -tags  -o /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend sound-looper-backend/app/tmp]
+TRACE 2017/07/04 15:50:09 app.go:63: Exec app: /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend [/Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend -port=61588 -importPath=sound-looper-backend -runMode=dev]
+TRACE 2017/07/04 15:50:09 controller.go:417: Registered controller: App
+TRACE 2017/07/04 15:50:09 controller.go:417: Registered controller: Static
+TRACE 2017/07/04 15:50:09 controller.go:417: Registered controller: TestRunner
+TRACE 2017/07/04 15:50:09 i18n.go:127: Importing messages from module: github.com/revel/modules/static
+TRACE 2017/07/04 15:50:09 i18n.go:127: Importing messages from module: github.com/revel/modules/testrunner
+TRACE 2017/07/04 15:50:09 i18n.go:164: Successfully loaded messages from file sample.en
+TRACE 2017/07/04 15:50:09 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views]
+TRACE 2017/07/04 15:50:09 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:50:09 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:50:09 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:50:09 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:50:09 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:50:09 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:50:09 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:50:09 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:50:09 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:50:09 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:50:10 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:50:10 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:50:18 app.go:95: Killing revel server pid 27332
+TRACE 2017/07/04 15:50:18 harness.go:132: Rebuild
+TRACE 2017/07/04 15:50:19 build.go:112: Exec: [/usr/local/go/bin/go build -i -ldflags -X sound-looper-backend/app.AppVersion= -X sound-looper-backend/app.BuildTime=2017-07-04T13:50:19Z -tags  -o /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend sound-looper-backend/app/tmp]
+TRACE 2017/07/04 15:50:20 app.go:63: Exec app: /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend [/Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend -port=61588 -importPath=sound-looper-backend -runMode=dev]
+TRACE 2017/07/04 15:50:20 controller.go:417: Registered controller: App
+TRACE 2017/07/04 15:50:20 controller.go:417: Registered controller: Static
+TRACE 2017/07/04 15:50:20 controller.go:417: Registered controller: TestRunner
+TRACE 2017/07/04 15:50:20 i18n.go:127: Importing messages from module: github.com/revel/modules/static
+TRACE 2017/07/04 15:50:20 i18n.go:127: Importing messages from module: github.com/revel/modules/testrunner
+TRACE 2017/07/04 15:50:20 i18n.go:164: Successfully loaded messages from file sample.en
+TRACE 2017/07/04 15:50:20 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views]
+TRACE 2017/07/04 15:50:20 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:50:20 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:50:20 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:50:20 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:50:20 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:50:20 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:50:20 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:50:20 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:50:20 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:50:20 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:50:22 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:50:22 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:50:22 app.go:21: map[myName:The name must have at least 3 characters]
+TRACE 2017/07/04 15:50:22 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:50:22 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:50:24 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:50:24 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:50:32 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:50:32 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:50:53 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:50:53 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/04 15:50:53 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/04 15:50:53 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/04 15:50:53 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/04 15:50:53 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:50:53 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:50:54 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:50:54 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 15:52:45 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/04 15:52:45 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/04 16:08:06 app.go:95: Killing revel server pid 27342
+TRACE 2017/07/05 09:01:21 run.go:120: Base path: /Users/creativehothouse/go/src/sound-looper-backend
+TRACE 2017/07/05 09:01:21 run.go:124: Running in watched mode.
+TRACE 2017/07/05 09:01:21 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 09:01:21 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/05 09:01:21 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/05 09:01:45 harness.go:132: Rebuild
+TRACE 2017/07/05 09:01:45 build.go:112: Exec: [/usr/local/go/bin/go build -i -ldflags -X sound-looper-backend/app.AppVersion= -X sound-looper-backend/app.BuildTime=2017-07-05T07:01:45Z -tags  -o /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend sound-looper-backend/app/tmp]
+TRACE 2017/07/05 09:01:47 app.go:63: Exec app: /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend [/Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend -port=50435 -importPath=sound-looper-backend -runMode=dev]
+TRACE 2017/07/05 09:01:47 controller.go:417: Registered controller: App
+TRACE 2017/07/05 09:01:47 controller.go:417: Registered controller: Static
+TRACE 2017/07/05 09:01:47 controller.go:417: Registered controller: TestRunner
+TRACE 2017/07/05 09:01:47 i18n.go:127: Importing messages from module: github.com/revel/modules/static
+TRACE 2017/07/05 09:01:47 i18n.go:127: Importing messages from module: github.com/revel/modules/testrunner
+TRACE 2017/07/05 09:01:47 i18n.go:164: Successfully loaded messages from file sample.en
+TRACE 2017/07/05 09:01:47 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views]
+TRACE 2017/07/05 09:01:47 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/05 09:01:47 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/05 09:01:47 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/05 09:01:47 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 09:01:47 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/05 09:01:47 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/05 09:01:47 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/05 09:01:47 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/05 09:01:47 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 09:01:47 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 09:01:47 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 09:01:47 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 09:01:47 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 09:01:47 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 09:01:47 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 09:01:47 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 09:01:47 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 09:01:47 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 09:01:51 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 09:01:51 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 09:01:53 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 09:01:53 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 09:02:08 app.go:95: Killing revel server pid 29499
+TRACE 2017/07/05 09:02:08 harness.go:132: Rebuild
+TRACE 2017/07/05 09:02:08 build.go:112: Exec: [/usr/local/go/bin/go build -i -ldflags -X sound-looper-backend/app.AppVersion= -X sound-looper-backend/app.BuildTime=2017-07-05T07:02:08Z -tags  -o /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend sound-looper-backend/app/tmp]
+TRACE 2017/07/05 09:02:10 app.go:63: Exec app: /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend [/Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend -port=50435 -importPath=sound-looper-backend -runMode=dev]
+TRACE 2017/07/05 09:02:10 controller.go:417: Registered controller: App
+TRACE 2017/07/05 09:02:10 controller.go:417: Registered controller: Static
+TRACE 2017/07/05 09:02:10 controller.go:417: Registered controller: TestRunner
+TRACE 2017/07/05 09:02:10 i18n.go:127: Importing messages from module: github.com/revel/modules/static
+TRACE 2017/07/05 09:02:10 i18n.go:127: Importing messages from module: github.com/revel/modules/testrunner
+TRACE 2017/07/05 09:02:10 i18n.go:164: Successfully loaded messages from file sample.en
+TRACE 2017/07/05 09:02:10 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views]
+TRACE 2017/07/05 09:02:10 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/05 09:02:10 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/05 09:02:10 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/05 09:02:10 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 09:02:10 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/05 09:02:10 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/05 09:02:10 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/05 09:02:10 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/05 09:02:10 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 09:02:10 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 09:20:06 app.go:95: Killing revel server pid 29508
+TRACE 2017/07/05 15:59:11 run.go:120: Base path: /Users/creativehothouse/go/src/sound-looper-backend
+TRACE 2017/07/05 15:59:11 run.go:124: Running in watched mode.
+TRACE 2017/07/05 15:59:11 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 15:59:11 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/05 15:59:11 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/05 16:00:29 harness.go:132: Rebuild
+TRACE 2017/07/05 16:00:29 build.go:112: Exec: [/usr/local/go/bin/go build -i -ldflags -X sound-looper-backend/app.AppVersion= -X sound-looper-backend/app.BuildTime=2017-07-05T14:00:29Z -tags  -o /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend sound-looper-backend/app/tmp]
+TRACE 2017/07/05 16:00:31 app.go:63: Exec app: /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend [/Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend -port=59119 -importPath=sound-looper-backend -runMode=dev]
+TRACE 2017/07/05 16:00:31 controller.go:417: Registered controller: App
+TRACE 2017/07/05 16:00:31 controller.go:417: Registered controller: Static
+TRACE 2017/07/05 16:00:31 controller.go:417: Registered controller: TestRunner
+TRACE 2017/07/05 16:00:31 i18n.go:127: Importing messages from module: github.com/revel/modules/static
+TRACE 2017/07/05 16:00:31 i18n.go:127: Importing messages from module: github.com/revel/modules/testrunner
+TRACE 2017/07/05 16:00:31 i18n.go:164: Successfully loaded messages from file sample.en
+TRACE 2017/07/05 16:00:31 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views]
+TRACE 2017/07/05 16:00:31 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/05 16:00:31 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/05 16:00:31 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/05 16:00:31 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 16:00:31 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/05 16:00:31 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/05 16:00:31 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/05 16:00:31 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/05 16:00:31 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:00:31 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:00:31 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:00:31 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:00:31 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:00:31 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:00:31 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:00:31 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:00:31 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:00:31 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:00:34 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:00:34 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:00:35 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:00:35 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:02:53 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:02:53 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:03:04 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:03:04 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:04:00 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:04:00 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:05:30 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:05:30 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:06:00 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:06:00 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:06:12 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:06:12 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:06:38 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:06:38 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:11:53 app.go:95: Killing revel server pid 36669
+TRACE 2017/07/05 16:11:53 harness.go:132: Rebuild
+TRACE 2017/07/05 16:11:53 build.go:112: Exec: [/usr/local/go/bin/go build -i -ldflags -X sound-looper-backend/app.AppVersion= -X sound-looper-backend/app.BuildTime=2017-07-05T14:11:53Z -tags  -o /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend sound-looper-backend/app/tmp]
+TRACE 2017/07/05 16:11:54 app.go:63: Exec app: /Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend [/Users/creativehothouse/go/bin/revel.d/sound-looper-backend/sound-looper-backend -port=59119 -importPath=sound-looper-backend -runMode=dev]
+TRACE 2017/07/05 16:11:54 controller.go:417: Registered controller: App
+TRACE 2017/07/05 16:11:54 controller.go:417: Registered controller: Static
+TRACE 2017/07/05 16:11:54 controller.go:417: Registered controller: TestRunner
+TRACE 2017/07/05 16:11:54 i18n.go:127: Importing messages from module: github.com/revel/modules/static
+TRACE 2017/07/05 16:11:54 i18n.go:127: Importing messages from module: github.com/revel/modules/testrunner
+TRACE 2017/07/05 16:11:54 i18n.go:164: Successfully loaded messages from file sample.en
+TRACE 2017/07/05 16:11:54 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views]
+TRACE 2017/07/05 16:11:54 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/05 16:11:54 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/05 16:11:54 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/05 16:11:54 template.go:68: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 16:11:54 template.go:97: Refreshing templates from [/Users/creativehothouse/go/src/sound-looper-backend/app/views /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views /Users/creativehothouse/go/src/github.com/revel/revel/templates]
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/Index.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/bye.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/App/hello.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/debug.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/flash.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/footer.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/sound-looper-backend/app/views/header.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/FailureDetail.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/Index.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/modules/testrunner/app/views/TestRunner/SuiteResult.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.json
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.txt
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/403.xml
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404-dev.html
+TRACE 2017/07/05 16:11:54 template.go:199: Not Loading, template is already exists:  errors/404.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/404.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.json
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.txt
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/404.xml
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.json
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.txt
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/405.xml
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500-dev.html
+TRACE 2017/07/05 16:11:54 template.go:199: Not Loading, template is already exists:  errors/500.html 
+	old file: /Users/creativehothouse/go/src/sound-looper-backend/app/views/errors/500.html 
+	new file: /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.html
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.json
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.txt
+TRACE 2017/07/05 16:11:54 template.go:253: Engine 'go' compiled /Users/creativehothouse/go/src/github.com/revel/revel/templates/errors/500.xml
+TRACE 2017/07/05 16:11:54 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:11:54 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:12:00 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:12:00 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:12:11 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:12:11 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:12:36 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:12:36 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:12:54 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:12:54 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:13:29 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:13:29 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:14:11 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:14:11 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:14:48 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:14:48 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:15:04 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:15:04 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:15:13 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:15:13 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:15:29 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:15:29 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:17:50 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:17:50 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:17:55 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:17:55 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:18:11 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:18:11 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:18:29 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:18:29 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:18:33 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:18:33 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:19:44 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:19:44 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:21:36 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:21:36 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:21:41 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:21:41 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:22:25 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:22:25 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:22:31 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:22:31 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:23:08 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:23:08 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:31:29 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:31:29 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:31:54 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:31:54 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:32:07 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:32:07 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:32:41 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:32:41 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:33:00 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:33:00 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:33:36 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:33:36 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:34:14 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:34:14 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:35:06 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:35:06 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:36:52 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:36:52 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:37:21 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:37:21 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:37:39 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:37:39 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:37:52 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:37:52 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:42:20 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:42:20 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:42:42 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:42:42 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:43:16 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:43:16 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:48:11 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:48:11 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:48:32 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:48:32 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:49:37 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:49:37 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:50:25 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:50:25 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:50:58 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:50:58 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 16:51:20 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 16:51:20 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 17:00:23 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 17:00:23 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 17:00:38 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 17:00:38 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 17:04:23 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 17:04:23 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 17:04:33 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 17:04:33 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 17:05:08 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 17:05:08 i18n.go:193: Found Accept-Language header value: es-ES
+TRACE 2017/07/05 17:06:31 i18n.go:228: Unable to read locale cookie with name 'REVEL_LANG': http: named cookie not present
+TRACE 2017/07/05 17:06:31 i18n.go:193: Found Accept-Language header value: es-ES
