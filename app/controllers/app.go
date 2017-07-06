@@ -13,6 +13,11 @@ type App struct {
 	*revel.Controller
 }
 
+type AudioFile struct {
+	Name, Url string
+
+}
+
 /** Adding CORS */
 func addHeaderCORS(c *revel.Controller) revel.Result {
 	c.Response.Out.Header().Add("Access-Control-Allow-Origin", "*")
@@ -44,21 +49,17 @@ func (c App) Hello(myName string) revel.Result {
 }
 
 func (c App) AudioFilesList() revel.Result {
-	data := make(map[string]interface{})
+	audiolist:= []AudioFile{}
 
-	//data["error"] = nil
-	audiolist:= []string{}
-
-	files, _ := ioutil.ReadDir("./public/audios/")
+	files, _ := ioutil.ReadDir("./public/audios/kicks/")
 
 	for _, f := range files {
-		public_file_url := "http://localhost:9000/public/audios/" + f.Name()
-		audiolist = append(audiolist, public_file_url)
+		public_file_url := "http://localhost:9000/public/audios/kicks/" + f.Name()
+		audio_file := AudioFile{f.Name(), public_file_url}
+		audiolist = append(audiolist, audio_file)
 	}
 
-
-	data["files"] = audiolist
-	return c.RenderJSON(data)
+	return c.RenderJSON(audiolist)
 }
 
 func (c App) Upload() revel.Result {
