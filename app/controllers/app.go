@@ -2,6 +2,7 @@ package controllers
 
 import (
 	"github.com/revel/revel"
+	"io/ioutil"
 )
 
 /**
@@ -44,8 +45,18 @@ func (c App) Hello(myName string) revel.Result {
 
 func (c App) AudioFilesList() revel.Result {
 	data := make(map[string]interface{})
+
 	//data["error"] = nil
-	audiolist:= []string{"a.mp3", "b.mp3"}
+	audiolist:= []string{}
+
+	files, _ := ioutil.ReadDir("./public/audios/")
+
+	for _, f := range files {
+		public_file_url := "http://localhost:9000/public/audios/" + f.Name()
+		audiolist = append(audiolist, public_file_url)
+	}
+
+
 	data["files"] = audiolist
 	return c.RenderJSON(data)
 }
