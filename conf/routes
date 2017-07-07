@@ -10,6 +10,9 @@ module:testrunner
 GET     /                                       App.Index
 GET     /api/kicks                              App.KicksFilesList
 GET     /api/snares                             App.SnaresFilesList
+GET     /api/hihats                             App.HiHatsFilesList
+GET     /api/sounds/808/:section                App.SoundFileList
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 

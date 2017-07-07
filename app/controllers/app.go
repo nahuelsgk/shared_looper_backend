@@ -58,6 +58,16 @@ func (c App) SnaresFilesList() revel.Result {
 	return c.RenderJSON(audiolist)
 }
 
+func (c App) HiHatsFilesList() revel.Result {
+	audiolist := getAudioAssetsFromFileSystem("hihats");
+	return c.RenderJSON(audiolist)
+}
+
+func (c App) SoundFileList(section string) revel.Result {
+	audioList := getAudioAssetsFromFileSystem(section)
+	return c.RenderJSON(audioList)
+}
+
 func getAudioAssetsFromFileSystem(folder string) []AudioFile {
 	audiolist := []AudioFile{}
 	files, _ := ioutil.ReadDir("./public/audios/"+folder+"/")
