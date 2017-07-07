@@ -48,18 +48,25 @@ func (c App) Hello(myName string) revel.Result {
 	return c.Render(myName)
 }
 
-func (c App) AudioFilesList() revel.Result {
-	audiolist:= []AudioFile{}
+func (c App) KicksFilesList() revel.Result {
+	audiolist := getAudioAssetsFromFileSystem("kicks");
+	return c.RenderJSON(audiolist)
+}
 
-	files, _ := ioutil.ReadDir("./public/audios/kicks/")
+func (c App) SnaresFilesList() revel.Result {
+	audiolist := getAudioAssetsFromFileSystem("snares");
+	return c.RenderJSON(audiolist)
+}
 
+func getAudioAssetsFromFileSystem(folder string) []AudioFile {
+	audiolist := []AudioFile{}
+	files, _ := ioutil.ReadDir("./public/audios/"+folder+"/")
 	for _, f := range files {
-		public_file_url := "http://localhost:9000/public/audios/kicks/" + f.Name()
+		public_file_url := "http://localhost:9000/public/audios/"+folder+"/" + f.Name()
 		audio_file := AudioFile{f.Name(), public_file_url}
 		audiolist = append(audiolist, audio_file)
 	}
-
-	return c.RenderJSON(audiolist)
+	return audiolist
 }
 
 func (c App) Upload() revel.Result {
