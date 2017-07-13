@@ -8,6 +8,7 @@ module:testrunner
 
 
 GET     /                                       App.Index
+GET     /App/Hello                              App.Hello
 GET     /api/kicks                              App.KicksFilesList
 GET     /api/snares                             App.SnaresFilesList
 GET     /api/hihats                             App.HiHatsFilesList

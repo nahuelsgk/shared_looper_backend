@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import keydown from 'react-keydown';
-import  {Grid, Row, Col} from 'react-bootstrap';
+import {Grid, Row, Col} from 'react-bootstrap';
 import Pad from './Pad.js';
 import './App.css';
 import 'rc-slider/assets/index.css';
