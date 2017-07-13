@@ -22,3 +22,16 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.butt {
+  border: 1px outset blue;
+  background-color: lightBlue;
+  height:50px;
+  width:50px;
+  cursor:pointer;
+}
+
+.butt:hover {
+  background-color: blue;
+  color:white;
+}
