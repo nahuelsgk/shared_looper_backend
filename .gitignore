@@ -1,3 +1,6 @@
 test-results/
 tmp/
 routes/
+/.idea/libraries/GOPATH__sound_looper_backend_.xml
+/.idea/workspace.xml
+/log/sound-looper-backend.log
