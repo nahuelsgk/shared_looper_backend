@@ -2,6 +2,9 @@ package app
 
 import (
 	"github.com/revel/revel"
+	//"log"
+	"github.com/nahuelsgk/sound-looper-backend/app/models/mongodb"
+	"github.com/nahuelsgk/sound-looper-backend/app/database"
 )
 
 var (
@@ -34,8 +37,33 @@ func init() {
 	// revel.DevMode and revel.RunMode only work inside of OnAppStart. See Example Startup Script
 	// ( order dependent )
 	// revel.OnAppStart(ExampleStartupScript)
-	// revel.OnAppStart(InitDB)
+	revel.OnAppStart(InitDB)
 	// revel.OnAppStart(FillCache)
+
+	revel.OnAppStart(initApp)
+}
+
+/*
+InitDB to connection to database
+*/
+func InitDB() {
+	// The second argument are default values, for safety
+	uri := revel.Config.StringDefault("database.uri", "mongodb://localhost:27017")
+	name := revel.Config.StringDefault("database.name", "revelapp")
+	if err := database.Init(uri, name); err != nil {
+		revel.INFO.Println("DB Error", err)
+	}
+}
+
+func initApp() {
+	//Config, err := revel.LoadConfig("app.conf")
+	//if err != nil || Config == nil {
+	//	log.Fatalf("%+v", err)
+	//}
+	mongodb.MaxPool = revel.Config.IntDefault("mongo.maxPool", 0)
+	mongodb.PATH, _ = revel.Config.String("mongo.path")
+	mongodb.DBNAME, _ = revel.Config.String("mongo.database")
+	mongodb.CheckAndInitServiceConnection()
 }
 
 // HeaderFilter adds common security headers
