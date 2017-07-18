@@ -3,9 +3,6 @@ package controllers
 import (
 	"github.com/revel/revel"
 	"io/ioutil"
-	"github.com/nahuelsgk/sound-looper-backend/app/models"
-	"encoding/json"
-	"github.com/nahuelsgk/sound-looper-backend/app/database"
 )
 
 /**
@@ -48,18 +45,6 @@ func (c App) Hello(myName string) revel.Result {
 
 		return c.Redirect(App.Index)
 	}
-
-	user := &models.User{}
-	json_data := map[string]string{"name": myName}
-	json_bytes, err := json.Marshal(json_data)
-
-	if err != nil {
-		return c.RenderError(err)
-	}
-
-	json.Unmarshal(json_bytes, user)
-
-	database.Users.Insert(user)
 
 	return c.Render(myName)
 }
