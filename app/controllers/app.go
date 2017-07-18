@@ -88,7 +88,8 @@ func getAudioAssetsFromFileSystem(folder string) []AudioFile {
 	audiolist := []AudioFile{}
 	files, _ := ioutil.ReadDir("./public/audios/"+folder+"/")
 	for _, f := range files {
-		public_file_url := "http://localhost:9000/public/audios/"+folder+"/" + f.Name()
+		host, _ := revel.Config.String("http.host" )
+		public_file_url := host + "public/audios/"+folder+"/" + f.Name()
 		audio_file := AudioFile{f.Name(), public_file_url}
 		audiolist = append(audiolist, audio_file)
 	}
