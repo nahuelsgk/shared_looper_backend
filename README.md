@@ -47,5 +47,5 @@ To deploy from office to heroku deploy:
 > heroku buildpacks:set https://github.com/revel/heroku-buildpack-go-revel
 
 DEPLOY MASTER: git push heroku master
-DEPLOY DEV: 
+DEPLOY DEV: git push heroku dev
 
